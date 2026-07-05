@@ -11,7 +11,7 @@ save: true
 save_period: -1
 cache: false
 device: '0'
-workers: 8
+workers: 0
 project: ID_Card_Detection
 name: multi_class_final_nano
 exist_ok: false
