@@ -1,0 +1,31 @@
+# 15/15 iterations complete ✅ (2909.63s)
+# Results saved to C:\id_card\runs\detect\tune
+# Best fitness=0.6297 observed at iteration 13
+# Best fitness metrics are {'metrics/precision(B)': 0.85064, 'metrics/recall(B)': 0.71661, 'metrics/mAP50(B)': 0.75231, 'metrics/mAP50-95(B)': 0.6297, 'val/box_loss': 0.76348, 'val/cls_loss': 1.55493, 'val/dfl_loss': 0.84619, 'fitness': 0.6297}
+# Best fitness model is C:\id_card\runs\detect\tune\weights
+lr0: 0.01
+lrf: 0.01315
+momentum: 0.93231
+weight_decay: 0.00056
+warmup_epochs: 3.78957
+warmup_momentum: 0.91404
+box: 8.73505
+cls: 0.74915
+cls_pw: 0.00587
+dfl: 1.44801
+hsv_h: 0.01006
+hsv_s: 7.0e-05
+hsv_v: 0.00037
+degrees: 0.00162
+translate: 0.17463
+scale: 0.46726
+shear: 0.0
+perspective: 4.0e-05
+flipud: 0.00335
+fliplr: 0.00459
+bgr: 0.00762
+mosaic: 0.90782
+mixup: 0.00203
+cutmix: 0.0004
+copy_paste: 0.00826
+close_mosaic: 10
